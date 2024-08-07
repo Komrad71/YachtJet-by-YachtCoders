@@ -2,6 +2,7 @@
   padding: 20px 0;
 }
 
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -18,4 +19,10 @@
 .nav-link:hover,
 .nav-link:focus {
   color: #747bff;
+}
+
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
