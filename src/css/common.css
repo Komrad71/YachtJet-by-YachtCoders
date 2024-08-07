@@ -50,15 +50,28 @@ body {
 
 .main-btn {
   border-radius: 15px;
-  padding: 16px 40px;
-  border: none;
-  min-width: 179px;
-  min-height: 52px;
+  padding: 14px 32px;
+  min-width: 141px;
+  min-height: 46px;
+  
+}
+@media screen and (min-width: 768px) {
+  .main-btn {
+    border-radius: 15px;
+    padding: 16px 40px;
+    border: none;
+    min-width: 179px;
+    min-height: 52px;
+  }
+
+  h2 {
+    font-size: 28px;}
+
 }
 
 h2 {
   font-weight: 500;
-  font-size: 48px;
+  font-size: 28px;
   line-height: 1;
   letter-spacing: -0.02em;
 }
