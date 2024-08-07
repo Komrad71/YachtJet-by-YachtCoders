@@ -23,7 +23,7 @@ body {
 
 .container {
   /* mobile */
-  width: 320px;
+  width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
