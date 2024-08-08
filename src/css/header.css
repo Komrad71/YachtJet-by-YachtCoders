@@ -9,14 +9,13 @@
     left: 20px;
     right: 20px;
     margin: 0 auto;
-    max-width: 335px;
+    max-width: 100%;
     padding: 0 20px;
 }
 
 @media (min-width: 768px) {
     .header-container {
         top: 32px;
-        max-width: 704px;
         left: 32px;
         right: 32px;
         padding: 0 28px;
@@ -25,27 +24,9 @@
 
 @media (min-width: 1280px) {
     .header-container {
-        max-width: 1080px;
         left: 100px;
         right: 100px;
         padding: 0 30px;
-    }
-}
-
-.header-nav {
-    display: flex;
-    align-items: center;
-}
-
-@media (min-width: 768px) {
-    .header-nav {
-        gap: 113px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .header-nav {
-        gap: 296px;
     }
 }
 
