@@ -34,6 +34,17 @@ body {
   }
 }
 
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+}
+
+
 main-btn {
   border-radius: 15px;
   padding: 14px 32px;
