@@ -8,7 +8,8 @@ body {
 
 .container {
   /* mobile */
-  width: 375px;
+  min-width: 320px;
+  max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -32,6 +33,17 @@ body {
 
   }
 }
+
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+}
+
 
 main-btn {
   border-radius: 15px;
