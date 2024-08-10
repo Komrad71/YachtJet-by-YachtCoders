@@ -14,6 +14,7 @@
 
 .menu-header-btn:hover,
 .menu-header-btn:focus{
+    /* mobile */
     background: #1b414b;
 }
 
@@ -33,6 +34,7 @@
 
 .hero-btn:hover,
 .hero-btn:focus{
+    /* mobile */
     background: #fbfbfb;
     color: #1b414b;
 }
@@ -53,18 +55,41 @@
 
 .footer-btn:hover,
 .footer-btn:focus {
+    /* mobile */
     background: #fbfbfb;
     color: #1b414b;
 }
 
+.header-icon {
+    fill: #ffff;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-icon:hover,
+.header-icon:focus {
+    fill: #ffff;
+    background-color: #31d0aa;
+}
+
+
+
+
 
 @media screen and (min-width: 768px){
 .hero-btn{ 
-       /* tablet */
+    /* tablet */
     font-size: 18px;
     line-height: 1.1;}
 
 .footer-btn{
+    /* tablet */
     width: 91px;
     height: 40px;}
 }
