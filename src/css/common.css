@@ -10,8 +10,7 @@ body {
   /* mobile */
   min-width: 320px;
   max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -50,7 +49,7 @@ main-btn {
   padding: 14px 32px;
   min-width: 141px;
   min-height: 46px;
-
+  border: none;
 }
 
 
@@ -65,7 +64,6 @@ h2 {
   .main-btn {
     border-radius: 15px;
     padding: 16px 40px;
-    border: none;
     min-width: 179px;
     min-height: 52px;
   }
