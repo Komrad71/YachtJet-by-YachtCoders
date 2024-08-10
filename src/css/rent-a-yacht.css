@@ -82,7 +82,7 @@
  
 .send-rent-a-yacht{ 
     border-radius: 15px; 
-    min-width: 122px; 
+    width: 122px; 
     height: 46px; 
     padding: 14px 44px; 
     background-color: #1b414b; 
@@ -114,8 +114,8 @@
         line-height: 100%; 
     } 
     .input-rent-a-yacht{ 
-        width: 472px; 
-        height: 54px; 
+        max-width: 472px; 
+        max-height: 54px; 
     } 
     .textarea-input{ 
         width: 472px; 
@@ -134,6 +134,9 @@
         padding-bottom: 75px;
         
     } 
+    .form-rent{
+        max-width: 473px;
+    }
 } 
 @media screen and (min-width: 1280px){ 
     .yacht-rent{ 
@@ -146,11 +149,29 @@
         margin-left: 0; 
     } 
     .picture-div-rent-a-yacht{ 
-        min-width: 658px; 
-        min-height: 536px; 
+        max-width: 658px;
+        max-height: 546px; 
         margin-right: 50px; 
     } 
     .send-rent-a-yacht{ 
         margin-bottom: 0; 
+        max-width: 194px;
+        max-height: 56px;
+        padding: 18px 75px;
+        margin-top: 50px;
+        width: 194px;
+        height: 56px;
     } 
+    .textarea-input{
+        margin-bottom: 0;
+        max-width: 472px;
+        max-height: 116px;
+    }
+    .input-rent-a-yacht{ 
+        width: 472px;
+        height: 54px;
+    } 
+    .form-rent{
+        max-width: 472px;
+    }
 }
