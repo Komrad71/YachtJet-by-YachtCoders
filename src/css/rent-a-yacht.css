@@ -14,8 +14,8 @@
     } 
 } */ 
 .yacht-rent{ 
-    margin-top: 40px; 
-    margin-bottom: 40px;
+    padding-top: 40px; 
+    padding-bottom: 40px;
     
 } 
 .form-rent{ 
@@ -130,8 +130,8 @@
         height: 534px;  
     } 
     .yacht-rent{ 
-        margin-top: 75px; 
-        margin-bottom: 75px;
+        padding-top: 75px; 
+        padding-bottom: 75px;
         
     } 
 } 
