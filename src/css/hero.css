@@ -1,7 +1,6 @@
 .hero {
-  padding: 260px 20px 302px 20px;
-  margin: 0 auto;
-  align-items: center;
+  padding-top: 260px;
+  padding-bottom: 302px;
   background-image: linear-gradient(
       360deg,
       rgba(17, 19, 31, 0.8) 15.05%,
@@ -33,34 +32,28 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 24px;
 }
 
 .hero-title {
   max-width: 335px;
-  font-weight: 500;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
+  margin-bottom: 24px;
 }
 
 .hero-text {
   font-weight: 300;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.17;
   text-align: center;
   color: rgba(251, 251, 251, 0.7);
   margin-bottom: 38px;
 }
 
 .hero-btn {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
   border-radius: 15px;
   padding: 14px 32px;
   min-width: 141px;
@@ -68,14 +61,15 @@
   background-color: #1b414b;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.3;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: #fbfbfb;
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 280px 32px 282px 32px;
+    padding-top: 280px;
+    padding-bottom: 282px;
     background-image: linear-gradient(
         360deg,
         rgba(17, 19, 31, 0.8) 15.05%,
@@ -122,7 +116,8 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    padding: 235px 139px 215px 140px;
+    padding-top: 235px;
+    padding-bottom: 215px;
     background-image: linear-gradient(
         360deg,
         rgba(17, 19, 31, 0.8) 15.05%,
@@ -146,6 +141,11 @@
     }
   }
 
+  .hero-container {
+    padding-left: 140px;
+    padding-right: 139px;
+  }
+
   .hero-title {
     max-width: 1001px;
     font-size: 80px;
@@ -158,7 +158,6 @@
 
 @media screen and (min-width: 1440px) {
   .hero {
-    padding: 235px 220px 215px 219px;
     background-image: linear-gradient(
         360deg,
         rgba(17, 19, 31, 0.8) 15.05%,
@@ -180,5 +179,10 @@
         ),
         url(/img/hero/hero-dp-14402x.jpg);
     }
+  }
+
+  .hero-container {
+    padding-left: 219px;
+    padding-right: 220px;
   }
 }
