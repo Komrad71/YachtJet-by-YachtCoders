@@ -9,7 +9,8 @@
     left: 20px;
     right: 20px;
     margin: 0 auto;
-    max-width: 100%;
+    min-width: 280px;
+    max-width: 335px;
     padding: 0 20px;
 }
 
@@ -19,6 +20,7 @@
         left: 32px;
         right: 32px;
         padding: 0 28px;
+        max-width: 704px;
     }
 }
 
@@ -27,6 +29,13 @@
         left: 100px;
         right: 100px;
         padding: 0 30px;
+        max-width: 1080px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header-container {
+        max-width: 1240px;
     }
 }
 
