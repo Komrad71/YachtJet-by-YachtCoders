@@ -39,7 +39,7 @@
 
 
     /* /////////////////// Button /////////////////////*/
-.menu-btn{
+.header-nav-link{
     /* mobile */
     border-radius: 8px;
     width: 91px;
@@ -54,8 +54,8 @@
     background: #1b414b;
 }
 
-.menu-btn:hover,
-.menu-btn:focus{
+.header-nav-link:hover,
+.header-nav-link:focus{
     /* mobile */
     background: rgba(27, 65, 75, 0.5);
 }
@@ -83,7 +83,7 @@
     color: #1b414b;
 }
 
-.yacht-rental-btn{
+.rental-btn{
     /* mobile */
     border: 1px solid rgba(251, 251, 251, 0.35);
     border-radius: 15px;
@@ -95,14 +95,14 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;}
 
-.yacht-rental-btn:hover,
-.yacht-rental-btn:focus {
+.rental-btn:hover,
+.rental-btn:focus {
     /* mobile */
     background: #fbfbfb;
     color: #1b414b;
 }
 
-.send-btn{
+.send-rent-btn{
     /* mobile */
     border-radius: 15px;
     padding: 14px 44px;
@@ -114,14 +114,14 @@
     color: #fbfbfb;
 }
 
-.send-btn:hover,
-.send-btn:focus {
+.send-rent-btn:hover,
+.send-rent-btn:focus {
     /* mobile */
     background: #fbfbfb;
     color: #1b414b;
 }
 
-.footer-btn {
+.footer-nav-link {
     /* mobile */
     border-radius: 8px;
     width: 66px;
@@ -135,8 +135,8 @@
     color: #fbfbfb;
 }
 
-.footer-btn:hover,
-.footer-btn:focus {
+.footer-nav-link:hover,
+.footer-nav-link:focus {
     /* mobile */
     background: #fbfbfb;
     color: #1b414b;
@@ -148,7 +148,7 @@
 
 @media screen and (min-width: 768px){
     /* ////////////////// Icon ////////////////////*/
-    .header-icon {
+.header-icon {
     /* tablet */
     fill: #1b414b;
     display: flex;
@@ -168,19 +168,19 @@
     width: 179px;
     height: 52px;}
 
-.yacht-rental-btn {
+.rental-btn {
     /* tablet */
     padding: 16px 40px;
     width: 179px;
     height: 52px;}
 
-.send-btn {
+.send-rent-btn {
     /* tablet */
     padding: 18px 75px;
     width: 194px;
     height: 56px;}
 
-.footer-btn{
+.footer-nav-link{
     /* tablet */
     width: 91px;
     height: 40px;}
