@@ -1,17 +1,11 @@
-ul, ol{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.item-blok{
-width: 295px;
 
+.item-blok{
+max-width: 295px;
 gap: 40px;
 }
 
 .advantages {
-  
-    padding: 0px 20px;
+  padding: 40px 20px;
     gap: 32px;
 
 }
@@ -19,16 +13,14 @@ gap: 40px;
 .advantages-container {
     background-color: #1b414b;
     border-radius: 24px;
-    padding: 67px 20px 80px 20px;
+    padding: 80px 20px;
     display: flex;
     margin-bottom: 12px;
+    max-width: 335px;
 
     
 }
 
-.blok-list {
-
-}
 
 .advantages-list {
 
@@ -41,7 +33,6 @@ gap: 40px;
 
 .advantages-item {
     list-style-type: none;
-    
 
 }
 
@@ -55,8 +46,6 @@ gap: 40px;
     line-height: 1.15;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-
-  
     opacity: 0.8;
     position: relative;
 }
@@ -80,9 +69,7 @@ gap: 40px;
    margin-bottom: 38px;
    margin-top: 0;
 }
-.advantages-foto {
 
-}
 
 .foto {
     border-radius: 24px;
@@ -93,28 +80,29 @@ gap: 40px;
 
 @media screen and (min-width: 768px){
     .advantages{
-    padding: 150px 32px 0px 32px;
+    padding: 75px 32px;
     }
     .advantages-container{
+        padding: 90px 32px;
         margin-bottom: 22px;
+        max-width: 704px;
+        max-height: 424px;
     }
     .advantages-text::before{
         width: 295px;
     }
     .advantages-list{
         
-   
-      
-        justify-content: center;
+        
     }
     .advantages-item{
 column-gap: 44px;
 row-gap: 32px;
-    
+justify-content: center;
     }
     .item-blok{
-        
-        width: 304px;
+       
+        max-width: 295px;
     }
   
 }
@@ -122,12 +110,13 @@ row-gap: 32px;
 @media screen and (min-width: 1280px){
     .advantages{
         display: flex;
-        padding: 150px 50px 0px 50px;
+        padding: 75px 50px;
         
     }
     .advantages-container{
-        padding: 50px 90px;
+        padding: 90px 50px;
         margin-bottom: 0;
+        max-width: 716px;
     }
     .advantages-text::before{
         width: 280px;
@@ -143,7 +132,10 @@ row-gap: 32px;
     }
     .item-blok{
       
-        width: 292px;
+        max-width: 292px;
+    }
+    .advantages-foto{
+        height: 100%;
     }
    
     }
@@ -156,7 +148,7 @@ row-gap: 32px;
     }
     .item-blok{
         
-        width: 318px;
+        max-width: 318px;
     }
     .advantages-item{
         
@@ -165,4 +157,10 @@ row-gap: 32px;
 
 
 }
+.advantages-container{
+    
+    max-width: 768px;
+    padding: 90px 50px;
+}
+
 }
