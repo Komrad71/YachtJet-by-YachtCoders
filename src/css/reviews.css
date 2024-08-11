@@ -48,7 +48,6 @@
 .wrap-reviews-text {
     display: flex;
     gap: 8px;
-    /* max-width: 303px; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
