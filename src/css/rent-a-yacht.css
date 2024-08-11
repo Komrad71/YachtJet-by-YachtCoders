@@ -1,4 +1,4 @@
-.yacht-rent{
+.form-div-rent{
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -60,7 +60,7 @@
     color: #FBFBFB;
     overflow: hidden;
     border: none;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     font-weight: 500;
     font-size: 14px;
 }
