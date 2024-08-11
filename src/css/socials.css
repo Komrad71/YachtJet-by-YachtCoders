@@ -61,7 +61,7 @@
     background: rgba(27, 65, 75, 0.5);
 }
 
-.hero-btn{
+.hero-btn-link{
     /* mobile */
     border-radius: 15px;
     padding: 14px 32px;
@@ -76,8 +76,8 @@
     color: #fbfbfb;
 }
 
-.hero-btn:hover,
-.hero-btn:focus{
+.hero-btn-link:hover,
+.hero-btn-link:focus{
     /* mobile */
     background: #fbfbfb;
     color: #1b414b;
@@ -185,7 +185,7 @@
     background: rgba(27, 65, 75, 0.5);
 }
 
-.hero-btn {
+.hero-btn-link {
     /* tablet */
     padding: 16px 40px;
     width: 179px;
