@@ -208,3 +208,68 @@
     width: 91px;
     height: 40px;}
 }
+
+
+
+
+/*  About us для подстраховки */
+/*
+.container1 {
+    /* mobile */
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+    background-color: #111;
+/*
+}
+
+.about-div {
+    /* mobile */
+    border-radius: 24px;
+    max-width: 335px;
+    height: 675px;
+    background: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+/*
+}
+
+.about-h3 {
+    /* mobile */
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #1b414b;
+    padding-top: 40px;
+/*
+}
+
+.about-p1 {
+    /* mobile */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    padding-top: 40px;
+/*
+}
+
+.about-p2 {
+    /* mobile */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+    padding-top: 20px;
+/*
+}
