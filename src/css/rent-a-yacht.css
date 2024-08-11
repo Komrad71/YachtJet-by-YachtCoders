@@ -108,6 +108,10 @@
     }
 }
 @media screen and (min-width: 1280px){
+    .yacht-in-sea-img{
+        width: 768px;
+        height: 536px;
+    }
     .form-div-rent{
         flex-direction: row-reverse;
     }
