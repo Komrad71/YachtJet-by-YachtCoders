@@ -53,18 +53,22 @@
   margin-bottom: 38px;
 }
 
-.hero-btn {
+.hero-btn-link{
   border-radius: 15px;
-  padding: 14px 32px;
-  min-width: 141px;
-  height: 46px;
-  background-color: #1b414b;
+  background-color: #1B414B;
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #fbfbfb;
-}
+  text-align: center;
+  color: #FBFBFB;
+  text-decoration: none;
+  min-width: 141px;
+  height: 46px;
+  padding: 14px 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
 @media screen and (min-width: 768px) {
   .hero {
