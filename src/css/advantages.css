@@ -1,0 +1,129 @@
+
+.main-advantages-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.advantages-container {
+    background-color: #1B414B;
+    border-radius: 24px;
+    padding: 80px 20px;
+    max-width: 335px;
+    margin-bottom: 20px;
+}
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+}
+.advantages-text {
+    font-size: 12px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+    opacity: 0.8;
+    position: relative;
+    max-width: 238px;
+}
+
+
+.advantages-text-3-4 {
+    max-width: 292px;
+}
+
+.advantages-text::before{
+    content:"";
+    position: absolute;
+    left: 1px;
+    top: -18px;
+    background: rgba(251, 251, 251, 0.1);
+    border-radius: 18px;
+    width: 295px;
+    height: 2px;
+}
+.number{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+   font-size: 28px;
+   line-height: 1;
+   letter-spacing: -0.05em;
+   color: #FBFBFB;
+   margin-bottom: 38px;
+   margin-top: 0;
+}
+.foto {
+    border-radius: 24px;
+}
+@media screen and (min-width: 768px){
+    .main-advantages-container {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .advantages-container {
+        padding: 90px 32px 90px 32px;
+        max-width: 704px;
+        margin-bottom: 32px;
+    }
+    .advantages-list{
+        gap: 44px 32px;
+    }
+    .advantages-item{
+       width: calc((100% - 1*32px) / 2);
+    }
+
+    .advantages-text::before{
+        width: 304px;
+    }
+    .number {
+        font-size: 32px;
+    }
+    .foto {
+        width: 704px;
+        height: 424px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .advantages-container {
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+        max-width: 716px;
+    }
+    .main-advantages-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+    .advantages-list{
+        gap: 44px;
+    }
+    .advantages-item{
+       width: calc((100% - 1*44px) / 2);
+    }
+    .advantages-text::before{
+        width: 280px;
+    }
+    .foto {
+        width: 432px;
+        height: 424px;
+    }
+    }
+@media screen and (min-width: 1440px){
+.advantages-container {
+        max-width: 768px;
+    }
+    .foto {
+        display: flex;
+        flex-shrink: 0;
+        width: 540px;
+        height: 424px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
