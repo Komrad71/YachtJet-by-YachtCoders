@@ -134,6 +134,7 @@
 @media (min-width: 768px) {
   .about-btn {
     padding: 15px 25px;
+    
   }
 
   .yachts-btn {
@@ -142,6 +143,10 @@
 
   .reviews-btn {
     padding: 15px 25px;
+  }
+  .list-item-footer a {
+    min-width: 91px;
+    height: 40px;
   }
 }
 
