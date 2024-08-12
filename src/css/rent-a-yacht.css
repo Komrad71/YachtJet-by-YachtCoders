@@ -26,6 +26,7 @@
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 12px;
     background-color:#0e1823;
+    color: #fbfbfb;
     padding: 8px 16px;
     display: block;
     margin-bottom: 18px;
@@ -64,6 +65,12 @@
     font-weight: 500;
     font-size: 14px;
 }
+.send-rent-a-yacht:hover, 
+.send-rent-a-yacht:focus {
+    background-color: #FBFBFB;
+    color: #1B414B;
+}
+
 .picture-div-rent-a-yacht{
     overflow: hidden;
     width: 335px;
