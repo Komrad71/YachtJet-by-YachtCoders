@@ -1,0 +1,102 @@
+.about-us{ 
+    margin-top: -35px; 
+} 
+.text-about-us{
+    background-color:#fbfbfb; 
+    border-radius: 24px; 
+    width: 335px;
+    height: 675px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.h-about-us{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    padding-top: 40px;
+}
+.p-abot-us-first{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    padding-top: 40px;
+}
+.p-about-us-second{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+    padding-top: 20px;
+}
+.picture-about-us{
+    overflow: hidden;
+    width: 335px;
+    height: 395px;
+    border-radius: 24px;
+    margin-top: -300px;
+}
+@media screen and (min-width: 768px){
+    .text-about-us{
+        width: 704px;
+        height: 675px;
+    }
+    .h-about-us{
+        font-size: 48px;
+        width: 536px;
+        height: 144px;
+        margin-bottom: 50px;
+    }
+    .p-abot-us-first{
+        width: 389px;
+        height: 92px;
+        font-size: 23px;
+    }
+    .p-about-us-second{
+        width: 389px;
+        height: 75px;
+        font-size: 13px;
+        padding-top: 60px;
+    }
+    .picture-about-us{
+        width: 704px;
+        height: 470px;
+        margin-top: -194px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .text-about-us{
+        width: 1180px;
+        height: 675px;
+    }
+    .picture-about-us{
+        width: 1180px;
+        height: 470px;
+        margin-top: -315px;
+    }
+    .h-about-us{
+        width: 537px;
+        height: 144px;
+    }
+    .p-abot-us-first{
+        width: 354px;
+        height: 115px;
+    }
+    .p-about-us-second{
+        width: 354px;
+        height: 75px;
+    }
+    .text-about-us{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+}
