@@ -280,6 +280,8 @@
                     <input
                     type="email"
                     name="email-yacht-rent"
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    required
                     placeholder="Email"
                     id="email-yacht"
                     class="input-rent-a-yacht">
@@ -290,6 +292,8 @@
                     <input
                     type="tel"
                     name="tel-yacht-tel"
+                    pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+                    required
                     placeholder="Phone number"
                     id="tel-yacht"
                     class="input-rent-a-yacht">
