@@ -1,0 +1,124 @@
+.about-us {
+    margin-top: -35px; 
+}
+
+.container-about-us {
+    padding-bottom: 40px;
+}
+.block-text-about-us {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 40px;
+    padding: 40px 20px; */
+    background-color:#fbfbfb; 
+    border-radius: 24px; 
+    width: 335px;
+    height: 675px;
+}
+.title-about-us {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 40px;
+}
+.text-firtst-abot-us {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
+}
+.text-second-about-us {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+    margin-bottom: 40px;
+}
+.picture-about-us {
+    overflow: hidden;
+    width: 335px;
+    height: 395px;
+    border-radius: 24px;
+    margin-top: -295px;
+}
+.yacht-with-mountain {
+}
+
+@media screen and (min-width: 768px){
+    .block-text-about-us{
+        padding-top: 50px;
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 704px;
+        height: 675px;
+    }
+    .title-about-us {
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+    .text-firtst-abot-us {
+        font-size: 23px;
+        max-width: 389px;
+    }
+    .text-second-about-us {
+        font-size: 13px;
+        max-width: 385px;
+        line-height: 1.15;
+        margin-bottom: 50px;
+    }
+    .picture-about-us{
+        width: 704px;
+        height: 470px;
+        margin-top: -194px;
+    }
+    .container-about-us {
+        padding-bottom: 75px;
+    }
+}
+
+
+@media screen and (min-width: 1280px){
+    .block-text-about-us {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        width: 100%;
+        height: 675px;
+        gap: 189px;
+    }
+    .picture-about-us{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 470px;
+        margin-top: -338px;
+    }
+    .title-about-us{
+        width: 537px;
+        height: 144px;
+        margin-bottom: 0;
+    }
+
+    .about-us-text-wrapper {
+        height: 150px;
+    }
+    .text-firtst-abot-us{
+        width: 354px;
+        height: 115px;
+    }
+    .text-second-about-us{
+        width: 354px;
+        height: 75px;
+        margin-bottom: 0;
+    }
+}
