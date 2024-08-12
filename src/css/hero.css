@@ -70,6 +70,12 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  .hero-btn-link:hover, 
+  .hero-btn-link:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
+
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 280px;
@@ -109,7 +115,7 @@
     margin-bottom: 48px;
   }
 
-  .hero-btn {
+  .hero-btn-link {
     padding: 16px 40px;
     min-width: 179px;
     height: 52px;
