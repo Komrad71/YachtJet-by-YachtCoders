@@ -155,8 +155,7 @@
         max-width: 1340px;
     }
 
-    .about-us-text-wrapper {
-        width: 404px;
-
+    .text-firtst-abot-us, .text-second-about-us, .about-us-text-wrapper {
+        min-width: 404px;
     }
 }
