@@ -21,7 +21,6 @@
     text-align: center;
     color: #fbfbfb;
     opacity: 0.4; 
-    margin-bottom: 40px;
 }
 
 .reviews-list-item {
@@ -49,7 +48,6 @@
 .wrap-reviews-text {
     display: flex;
     gap: 8px;
-    /* max-width: 303px; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -116,6 +114,7 @@
     .reviews-list-item:nth-child(n+3) {
         display: none;
     }
+
 
 }
       

@@ -49,7 +49,6 @@ body {
   padding: 14px 32px;
   min-width: 141px;
   min-height: 46px;
-  border: none;
 }
 
 
@@ -81,6 +80,7 @@ img {
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 .visually-hidden {
