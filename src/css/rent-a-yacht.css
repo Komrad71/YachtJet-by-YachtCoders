@@ -34,8 +34,8 @@
 }
 .input-rent-a-yacht:focus,
 .textarea-input:focus{
-    border-color: 1px solid rgba(251, 251, 251, 0.5);
-    color: 1px solid rgba(251, 251, 251, 0.5);
+    border-color: rgba(251, 251, 251, 0.5);
+    color: rgba(251, 251, 251, 0.5);
 }
 .textarea-input{
     width: 100%;
